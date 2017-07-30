@@ -5,8 +5,13 @@
   <title>SchedulerComponentAngular</title>
   <base href="/">
   <!-- Web Components polyfill -->
-  <script src="assets/bower_components/webcomponentsjs/webcomponents.min.js"></script>
-    <!-- Import the scheduler-component element -->
+  <script src="assets/bower_components/webcomponentsjs/webcomponents-lite.js"></script>
+   <script>
+    window.Polymer = {
+      dom: 'shadow'
+    };
+  </script>  
+  <!-- Import the scheduler-component element -->
   <link rel="import" href="assets/bower_components/scheduler-component/scheduler-component.html">
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
