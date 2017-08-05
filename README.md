@@ -1,28 +1,21 @@
-# SchedulerComponentAngular
+# scheduler-component-angular
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.2.0.
+The [scheduler component](https://github.com/HaithemMosbahi/scheduler-component-angular.git) is a web component that makes it easy to create highly customizable calendar to manage and schedule events. The scheduler is built using polymer 2.0 which uses ES 6 and implements custom element specification V1.
 
-## Development server
+The aim of this project is to demonstrate how to integrate Web components within an existing angular 2+ application. More specificaly, this application uses the <scheduler-component> inside an angular tempalte component.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+Moreover, The goal is to show you how a polymer web component can be interoperable with angular.
 
-## Code scaffolding
+## Angular :heart: Web components
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|module`.
+In the next section, I will illustrates the required setup in order to integrate a Web component within an Angular application.
 
-## Build
+* I want to use Custom elements 
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+The first step is to tell angular that you are going to use custom elements which are not part of angular application.
 
-## Running unit tests
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-## Running end-to-end tests
+## License 
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+MIT © [Haithem Mosbahi](mailto:elmosbahihaithem@gmail.com)
