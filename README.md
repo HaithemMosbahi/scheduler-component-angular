@@ -6,6 +6,9 @@ The aim of this project is to demonstrate how to integrate Web components within
 
 Moreover, The goal is to show you how a polymer web component can be interoperable with angular.
 
+## Demo 
+This application is deployed on firebase. Click [here](https://scheduler-angular-455e4.firebaseapp.com/) to check the live demo.
+
 ## Angular :heart: Web components
 
 In the next section, I will illustrate the required setup in order to integrate a Web component within an Angular application.
@@ -54,6 +57,25 @@ We will consider bower_components as assets of our angular application. Thus, an
 
 
 * Start using your Web component
+
+Now that we have paved the way to use web components inside our angular application, it's time to go the [store](https://www.webcomponents.org/) of custom elelemnts and pick one. 
+
+Let's say that we are looking for a component to schedule and manage events, a component that will allow us to focus on the business logic rather than building the UI from scratch. So we are going to pick the [scheduler-component](https://www.webcomponents.org/element/HaithemMosbahi/scheduler-component).
+In order to use this element inside our application, we need to install it first. As we have discussed, bower is the package manager in webcomponents land : 
+
+```shell
+bower install --save HaithemMosbahi/scheduler-component
+```
+After running the command above, you will notice the presence of new celements in your assets folder. Those are related to the scheduler-component.
+
+Finally, we are ready to use our custom element within angular template:
+
+```html
+<h2>Scheduler component Demo</h2>
+<scheduler-component></scheduler-component>
+```
+That's all :smile:. Now, in order to build a more advanced scheduler, you need to take a look at the scheduler-component documentation : attributes, the API and events.∏
+
 
 ## License 
 
